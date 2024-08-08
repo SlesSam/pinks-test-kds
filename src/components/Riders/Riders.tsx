@@ -1,5 +1,5 @@
 import s from "./Riders.module.scss";
-import Rider from "../../bases/Rider";
+import Rider from "@/bases/Rider";
 import { useRiders } from "@/contexts/Riders.context";
 
 export default function Riders() {
