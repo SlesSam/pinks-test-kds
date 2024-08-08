@@ -2,7 +2,7 @@ import Column from "@/components/Column";
 import s from "./Kanban.module.scss";
 import { useOrders } from "@/contexts/Orders.context";
 
-// version 3
+
 export default function Kanban() {
   const { orders, updateOrderState, deleteOrder } = useOrders();
 

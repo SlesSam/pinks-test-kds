@@ -7,7 +7,7 @@ export type ColumnProps = {
   onClick?: (order: Order) => void;
 };
 
-// version 3
+
 export default function Column({ orders, title, onClick }: ColumnProps) {
   return (
     <div className={s["pk-column"]}>
